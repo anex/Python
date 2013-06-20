@@ -1,0 +1,68 @@
+body {
+    font: 12px arial, sans-serif;
+    background-color: #E0E0E0;
+    padding: 50px;
+}
+
+div#contenido {
+    text-align: center;
+    padding: 50px;
+    border-style: inset; 
+}
+
+div#title {
+    font-size: 80px;
+}
+
+div#buttons {
+    margin-top: 50px;
+    width: 100%;
+}
+
+a.buttons {
+    margin: 10px;
+    width: 100px;
+    height: 25px;
+    background: #909090;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+div#form {
+    margin-top: 30px;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+form {
+    text-align: center;
+    width: 250px;
+    border: inset;
+    padding: 10px;
+    background-color: #E8E8E8;
+}
+
+form input {
+    width: 100px;
+}
+
+label {
+    font-weight: bold;
+    margin: 10px;
+}
+
+table {
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+    border: 1px;
+    padding: 10px;
+    width: 80%;
+}
+
+td {
+    width: 20px;
+}
