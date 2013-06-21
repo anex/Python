@@ -32,7 +32,6 @@ def imp(texto, veces = 1):
 
 def sumar(x, y):
     return x + y
-print sumar(2, 3)
 
 def varios(param1, param2, *otros):
     for val in otros:
