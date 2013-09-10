@@ -14,6 +14,9 @@ def dic():
           2 : "Carol",
           3 : "Carlos"}
     print d[2]
+    k = d.keys()
+    for item in k:
+        print d[item]
 
 def bucles():
     while True:
