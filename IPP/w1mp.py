@@ -61,18 +61,26 @@ def rpsls(name):
 
 # compute random guess for comp_number using random.randrange()
     comp_number = random.randrange(0, 5)
-    print "Computer chosses "+number_to_name(comp_number)+"\n"
 
 # compute difference of player_number and comp_number modulo five
-    if player_number != comp_number:
-        print "Escogieron diferente"
+    difference = (player_number - comp_number) % 5
 
 # use if/elif/else to determine winner
+    if difference == 1 or difference == 2:
+        winner = "Player"
+    else:
+        winner = "Computer"
 
 # convert comp_number to name using number_to_name
-    #results = number_to_name(winner_number)
+    print "Computer chosses "+number_to_name(comp_number)
+    
+    if (player_number != comp_number): 
+        results = winner+" wins!"
+    else:
+        results = "Draw"
 
-    #print results+"\n"
+
+    print results+"\n"
 
 # test your code
 rpsls("rock")
